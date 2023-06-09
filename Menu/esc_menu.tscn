@@ -1,0 +1,76 @@
+[gd_scene load_steps=3 format=3 uid="uid://dpuf1lwsi2uw"]
+
+[ext_resource type="Texture2D" uid="uid://k3y0b8schk1i" path="res://Menu/PostremoDeprecari.jpg" id="1_y86l4"]
+[ext_resource type="FontFile" uid="uid://yrm0jciiry5d" path="res://penguinattackcyrillic.otf" id="2_4qi3v"]
+
+[node name="EscMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(662, 360)
+scale = Vector2(0.69, 0.69)
+texture = ExtResource("1_y86l4")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 386.0
+offset_top = 323.0
+offset_right = 901.0
+offset_bottom = 391.0
+theme_override_colors/font_color = Color(0.764706, 0.537255, 0, 1)
+theme_override_colors/icon_focus_color = Color(0.87451, 0.607843, 0.423529, 1)
+theme_override_fonts/font = ExtResource("2_4qi3v")
+theme_override_font_sizes/font_size = 68
+text = "Продовжити"
+expand_icon = true
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 383.0
+offset_top = 404.0
+offset_right = 901.0
+offset_bottom = 472.0
+theme_override_colors/font_color = Color(0.764706, 0.537255, 0, 1)
+theme_override_colors/icon_focus_color = Color(0.87451, 0.607843, 0.423529, 1)
+theme_override_fonts/font = ExtResource("2_4qi3v")
+theme_override_font_sizes/font_size = 68
+text = "Завантажити"
+expand_icon = true
+
+[node name="Button3" type="Button" parent="."]
+layout_mode = 0
+offset_left = 383.0
+offset_top = 485.0
+offset_right = 901.0
+offset_bottom = 553.0
+theme_override_colors/font_color = Color(0.764706, 0.537255, 0, 1)
+theme_override_colors/icon_focus_color = Color(0.87451, 0.607843, 0.423529, 1)
+theme_override_fonts/font = ExtResource("2_4qi3v")
+theme_override_font_sizes/font_size = 68
+text = "Налаштування"
+expand_icon = true
+
+[node name="Button5" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -281.0
+offset_top = -157.0
+offset_right = 240.0
+offset_bottom = -89.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_color = Color(0.764706, 0.537255, 0, 1)
+theme_override_colors/icon_focus_color = Color(0.87451, 0.607843, 0.423529, 1)
+theme_override_fonts/font = ExtResource("2_4qi3v")
+theme_override_font_sizes/font_size = 68
+text = "Вихiд"
+expand_icon = true

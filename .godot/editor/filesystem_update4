@@ -1,0 +1,7 @@
+res://Menu/main_menu.tscn
+res://tutorial.tscn
+res://player.tscn
+res://Menu/esc_menu.tscn
+res://Menu/main_menu.gd
+res://Menu/developer.tscn
+res://Menu/developer.gd

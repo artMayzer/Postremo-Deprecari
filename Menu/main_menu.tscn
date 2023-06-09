@@ -1,0 +1,97 @@
+[gd_scene load_steps=4 format=3 uid="uid://cuc1kt5kj5yep"]
+
+[ext_resource type="Texture2D" uid="uid://k3y0b8schk1i" path="res://Menu/PostremoDeprecari.jpg" id="1_fmrai"]
+[ext_resource type="Script" path="res://Menu/main_menu.gd" id="1_yxbso"]
+[ext_resource type="FontFile" uid="uid://yrm0jciiry5d" path="res://penguinattackcyrillic.otf" id="2_78grh"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+script = ExtResource("1_yxbso")
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="CenterContainer"]
+position = Vector2(662, 360)
+scale = Vector2(0.69, 0.69)
+texture = ExtResource("1_fmrai")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 383.0
+offset_top = 294.0
+offset_right = 898.0
+offset_bottom = 362.0
+theme_override_colors/font_color = Color(0.764706, 0.537255, 0, 1)
+theme_override_colors/icon_focus_color = Color(0.87451, 0.607843, 0.423529, 1)
+theme_override_fonts/font = ExtResource("2_78grh")
+theme_override_font_sizes/font_size = 68
+text = "Грати"
+expand_icon = true
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 380.0
+offset_top = 375.0
+offset_right = 898.0
+offset_bottom = 443.0
+theme_override_colors/font_color = Color(0.764706, 0.537255, 0, 1)
+theme_override_colors/icon_focus_color = Color(0.87451, 0.607843, 0.423529, 1)
+theme_override_fonts/font = ExtResource("2_78grh")
+theme_override_font_sizes/font_size = 68
+text = "Завантажити"
+expand_icon = true
+
+[node name="Button3" type="Button" parent="."]
+layout_mode = 0
+offset_left = 380.0
+offset_top = 456.0
+offset_right = 898.0
+offset_bottom = 524.0
+theme_override_colors/font_color = Color(0.764706, 0.537255, 0, 1)
+theme_override_colors/icon_focus_color = Color(0.87451, 0.607843, 0.423529, 1)
+theme_override_fonts/font = ExtResource("2_78grh")
+theme_override_font_sizes/font_size = 68
+text = "Налаштування"
+expand_icon = true
+
+[node name="Button4" type="Button" parent="."]
+layout_mode = 0
+offset_left = 380.0
+offset_top = 534.0
+offset_right = 898.0
+offset_bottom = 602.0
+theme_override_colors/font_color = Color(0.764706, 0.537255, 0, 1)
+theme_override_colors/icon_focus_color = Color(0.87451, 0.607843, 0.423529, 1)
+theme_override_fonts/font = ExtResource("2_78grh")
+theme_override_font_sizes/font_size = 68
+text = "Автор"
+expand_icon = true
+
+[node name="Button5" type="Button" parent="."]
+layout_mode = 0
+offset_left = 380.0
+offset_top = 611.0
+offset_right = 897.0
+offset_bottom = 679.0
+theme_override_colors/font_color = Color(0.764706, 0.537255, 0, 1)
+theme_override_colors/icon_focus_color = Color(0.87451, 0.607843, 0.423529, 1)
+theme_override_fonts/font = ExtResource("2_78grh")
+theme_override_font_sizes/font_size = 68
+text = "Вихiд"
+expand_icon = true
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button4" to="." method="_on_button_4_pressed"]
+[connection signal="pressed" from="Button5" to="." method="_on_button_5_pressed"]

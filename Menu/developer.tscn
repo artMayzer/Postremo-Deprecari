@@ -1,0 +1,80 @@
+[gd_scene load_steps=4 format=3 uid="uid://besdrdxlbbu1i"]
+
+[ext_resource type="Texture2D" uid="uid://bftcxop3o160r" path="res://Images/Autor.jpg" id="1_g48pb"]
+[ext_resource type="Script" path="res://Menu/developer.gd" id="1_odia0"]
+[ext_resource type="FontFile" uid="uid://yrm0jciiry5d" path="res://penguinattackcyrillic.otf" id="2_8qa0s"]
+
+[node name="Developer" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_odia0")
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.0181818
+anchor_top = -0.0111111
+anchor_right = 0.981818
+anchor_bottom = 0.988889
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.04, 1.04)
+metadata/_edit_use_anchors_ = true
+
+[node name="TextureRect" type="TextureRect" parent="CenterContainer"]
+layout_mode = 2
+texture = ExtResource("1_g48pb")
+
+[node name="TextEdit" type="TextEdit" parent="."]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -45.0
+offset_top = -128.0
+offset_right = 411.0
+offset_bottom = 345.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.772549, 0.788235, 0, 1)
+theme_override_colors/font_readonly_color = Color(0.85098, 0.741176, 0, 1)
+theme_override_constants/line_spacing = 7
+theme_override_fonts/font = ExtResource("2_8qa0s")
+theme_override_font_sizes/font_size = 35
+text = "										Головний озробник: Артемiй Гурський                                         
+
+	Менеджер: Артемiй Гурський						Художник: ШI \"Dream\", Артемiй Гурський
+	Музика: Артемiй Гурський						Сюжет: Артемiй Гурський
+	Тестування: Артемiй Гурський					Програмування: Артемiй Гурський
+	Студент 472 групи									ФКIСIТ КНЕУ iм Вадима Гетьмана
+	telegram:// @burgersous							inst: posdep.inst
+	mail: postremo_deprecari@gmail.com
+	
+                             							2023"
+editable = false
+context_menu_enabled = false
+shortcut_keys_enabled = false
+selecting_enabled = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+virtual_keyboard_enabled = false
+middle_mouse_paste_enabled = false
+
+[node name="Button" type="Button" parent="TextEdit"]
+layout_mode = 0
+offset_left = 1047.0
+offset_top = 337.0
+offset_right = 1260.0
+offset_bottom = 426.0
+theme_override_colors/font_color = Color(0.843137, 1, 0, 1)
+theme_override_fonts/font = ExtResource("2_8qa0s")
+theme_override_font_sizes/font_size = 83
+text = "Меню"
+flat = true
+
+[connection signal="pressed" from="TextEdit/Button" to="." method="_on_button_pressed"]

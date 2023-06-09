@@ -1,0 +1,26 @@
+2a60927148abd1d33b818b535e306557
+::res://::1686141572
+Camera.gd::GDScript::-1::1685912949::0::1::::<>Camera2D<>::
+EscMenu.gd::GDScript::-1::1686081698::0::1::::<>Node<>::
+icon.svg::CompressedTexture2D::2324813717747606105::1685129113::1685129125::1::::<><>::
+penguinattackcyrillic.otf::FontFile::1720400394067244519::1685131986::1685131987::1::::<><>::
+Player.gd::GDScript::-1::1686064644::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::4030608307781385364::1686141572::0::1::::<><>::res://Player.gd<>uid://vd7v7ojn8xu5
+tutorial.tscn::PackedScene::5988611012858007142::1686141572::0::1::::<><>::uid://c4eay46j0utib<>uid://p7i1seypitly<>uid://c0wsx00ekxpl0<>uid://diocki6jq61r8<>uid://bxopsavffehua<>res://Camera.gd
+::res://Images/::1686140005
+Autor.jpg::CompressedTexture2D::2776751346246671695::1686139997::1686141614::1::::<><>::
+::res://Menu/::1686141572
+esc_menu.tscn::PackedScene::242756849673779594::1686141572::0::1::::<><>::uid://k3y0b8schk1i<>uid://yrm0jciiry5d
+main_menu.gd::GDScript::-1::1686140924::0::1::::<>Control<>::
+main_menu.tscn::PackedScene::6182344540161319863::1686141571::0::1::::<><>::uid://k3y0b8schk1i<>res://Menu/main_menu.gd<>uid://yrm0jciiry5d
+PostremoDeprecari.jpg::CompressedTexture2D::761192970490708860::1685114665::1685129271::1::::<><>::
+developer.tscn::PackedScene::2704547560894730500::1686141572::0::1::::<><>::uid://bftcxop3o160r<>uid://yrm0jciiry5d
+::res://Tiles/::1686064482
+MyTilesTerraint.png::CompressedTexture2D::7749813849172268323::1685311807::1685897277::1::::<><>::
+PlayerTile.png::CompressedTexture2D::1482140997903471002::1685395048::1686064482::1::::<><>::
+::res://Tiles/forest_tile_set/::1685311142
+forest_decoration.png::CompressedTexture2D::6574114099955826531::1685311142::1685311142::1::::<><>::
+ground.png::CompressedTexture2D::6816619774468324461::1685311142::1685311142::1::::<><>::
+MIT License.TXT::TextFile::-1::1685311142::0::1::::<><>::
+pathway.png::CompressedTexture2D::1119425861994409866::1685311142::1685311142::1::::<><>::
+water.png::CompressedTexture2D::5789557433932664208::1685311142::1685311142::1::::<><>::
